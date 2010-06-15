@@ -19,9 +19,9 @@
             this.use(Sammy.Session);
             //this.use(Sammy.Haml);
             this.xmpp = {
-                "bosh":           "",
-                "domain":         "",
-                "resource":       "",
+                "bosh":           "http://starafrica-dev.af83.com/xmpp",
+                "domain":         "starafrica-dev.af83.com",
+                "resource":       "af83chat",
                 "userJID":        null,
                 "userPassword":   null,
             };
